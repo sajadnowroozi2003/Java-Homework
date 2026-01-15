@@ -4,6 +4,8 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
+//        Day 1
 //        String name= "Mahammod";
 //        int x = 23;
 //        double y = 3.4;
@@ -83,5 +85,8 @@ public class Main {
 //            default -> "Invalid day";
 //        };
 //        System.out.println(dayName);
+
+
+
     }
 }
