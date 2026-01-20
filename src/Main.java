@@ -88,5 +88,58 @@ public class Main {
 
 
 
+//        day 3
+//        Arrays
+//String color ="red";
+//String colors ="red","blue";
+String [] colors1 = new String[5];
+colors1[0]="red";
+colors1[1]="blue";
+colors1[2]="yellow";
+colors1[3]="pink";
+colors1[4]="green";
+
+
+String [] colors2 = {"red","blue","pink","yellow","green","purple"};
+//        System.out.println(colors2[0]);
+////        System.out.println(colors2[1]);
+////        System.out.println(colors2[2]);
+////        System.out.println(colors2[3]);
+////        System.out.println(colors2[4]);
+////        System.out.println(colors2[5]);
+//
+//
+//        for (int i = 0; i<colors2.length; i++){
+//            System.out.println(colors2[i]);
+//        }
+
+
+        int[] numbers ={2,4,5,-76,87,-9,6,66,7,7,88,4,2,2};
+        int sum=0;
+        int max= numbers[0];
+        int min =numbers[0];
+        double avg = 0.0;
+        for (int i = 0 ; i<numbers.length;i++){
+            sum+=numbers[i];
+            if (numbers[i] > max){
+                max= numbers[i];
+            }
+            if (numbers[i]< min){
+                min= numbers[i];
+            }
+
+        }
+
+        avg = (double) sum / numbers.length;
+        System.out.println("Sum is: "+sum );
+        System.out.printf("Average is: %.2f",avg);
+        System.out.println();
+        System.out.println("Max is: "+max );
+        System.out.println("Min is: "+min );
+
+
+
+
+
     }
 }
